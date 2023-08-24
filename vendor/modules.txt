@@ -1,0 +1,70 @@
+# github.com/cespare/xxhash/v2 v2.1.2
+## explicit; go 1.11
+github.com/cespare/xxhash/v2
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f
+## explicit
+github.com/dgryski/go-rendezvous
+# github.com/go-chi/chi/v5 v5.0.10
+## explicit; go 1.14
+github.com/go-chi/chi/v5
+github.com/go-chi/chi/v5/middleware
+# github.com/go-redis/redis/v8 v8.11.5
+## explicit; go 1.17
+github.com/go-redis/redis/v8
+github.com/go-redis/redis/v8/internal
+github.com/go-redis/redis/v8/internal/hashtag
+github.com/go-redis/redis/v8/internal/hscan
+github.com/go-redis/redis/v8/internal/pool
+github.com/go-redis/redis/v8/internal/proto
+github.com/go-redis/redis/v8/internal/rand
+github.com/go-redis/redis/v8/internal/util
+# github.com/golang-jwt/jwt/v4 v4.5.0
+## explicit; go 1.16
+github.com/golang-jwt/jwt/v4
+# github.com/google/uuid v1.3.0
+## explicit
+github.com/google/uuid
+# github.com/pkg/errors v0.9.1
+## explicit
+github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/severedsea/golang-kit v0.0.0-20230823154911-979071a2cf82
+## explicit; go 1.20
+github.com/severedsea/golang-kit/appconfig
+github.com/severedsea/golang-kit/envvar
+github.com/severedsea/golang-kit/logr
+github.com/severedsea/golang-kit/projectpath
+github.com/severedsea/golang-kit/ptr
+github.com/severedsea/golang-kit/redact
+github.com/severedsea/golang-kit/timex
+github.com/severedsea/golang-kit/web
+github.com/severedsea/golang-kit/web/middleware
+github.com/severedsea/golang-kit/web/server
+# github.com/sirupsen/logrus v1.8.1
+## explicit; go 1.13
+github.com/sirupsen/logrus
+# github.com/stretchr/objx v0.1.0
+## explicit
+github.com/stretchr/objx
+# github.com/stretchr/testify v1.7.0
+## explicit; go 1.13
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/mock
+github.com/stretchr/testify/require
+# golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
+## explicit; go 1.20
+golang.org/x/exp/constraints
+golang.org/x/exp/slices
+# golang.org/x/sys v0.11.0
+## explicit; go 1.17
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c
+## explicit
+gopkg.in/yaml.v3

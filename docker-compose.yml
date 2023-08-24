@@ -1,0 +1,25 @@
+services:
+  go:
+    container_name: go-jwt-server-local
+    image: golang:1.21
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./.env.local
+    environment:
+      CGO_ENABLED: 0
+      GOCACHE: /tmp/go-build
+      TZ: Asia/Singapore
+    networks:
+      - jwt-server
+
+  redis:
+    container_name: redis-jwt-server-local
+    image: redis:6.0-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - jwt-server
+
+networks:
+  jwt-server:

@@ -1,0 +1,18 @@
+# coverage
+c.out
+coverage.html
+
+# keys
+*.rsa
+*.rsa.*
+
+# MacOS temp files
+.DS_Store
+
+# build binaries
+bin/
+
+.cache
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log
